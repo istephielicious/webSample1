@@ -121,7 +121,7 @@ a[data-toggle="collapse"] {
 }
 
 a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
-    content: '\e259';
+ /*   content: '\e259';*/
     display: block;
     position: absolute;
     right: 20px;
@@ -130,7 +130,7 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
 }
 
 a[aria-expanded="true"]::before {
-    content: '\e260';
+    /*content: '\e260';*/
 }
 
 
@@ -151,18 +151,6 @@ ul.CTAs a {
     border-radius: 5px;
     margin-bottom: 5px;
 }
-
-/*
-a.download {
-    background: #fff;
-    color: #7386D5;
-}
-
-a.article, a.article:hover {
-    background: #eeeeef !important;
-    color: #fff !important;
-}
-*/
 
 
 /* ---------------------------------------------------
